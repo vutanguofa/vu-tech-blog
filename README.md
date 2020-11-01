@@ -7,8 +7,21 @@ This repo includes a blog site where developers can publish their blog posts and
 ## Table of Contents
 
 * [Assignment Details](#assignment-details)<br />
+* [Dependencies](#dependencies)<br />
 * [Link to deployed application](#link-to-deployed-application)<br />
 * [GitHub](#github)<br />
+
+## Dependencies
+```
+bcrypt
+connect-session-sequelize
+dotenv
+express
+express-handlebars
+express-session
+mysql2
+sequelize
+```
 
 ## Assignment Details
 
