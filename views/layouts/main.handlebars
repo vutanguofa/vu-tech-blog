@@ -12,15 +12,23 @@
   <div class="wrapper">
     <header>
       <h1>
-        <a href="/">Vu's Tech Blog</a>
+        <a href="/" class="myHeader">Vu's Tech Blog</a>
       </h1>
-      <nav>
-        {{#if loggedIn}}
-        <a href="/dashboard">Dashboard</a>
+      <nav id="navbar">
+        {{!-- {{#if loggedIn}}
+        <li><a href="/">Home</a></li>
+        <li><a href="/dashboard">Dashboard</a></li>
         <button id="logout" class="btn-no-style">Logout</button>
         {{else}}
-        <a href="/login">Login</a>
-        {{/if}}
+        <li><a href="/">Home</a></li>
+        <li><a href="/login">Login</a></li>
+        {{/if}} --}}
+        <ul id="navbar">
+          <li><a href="/">Home</a></li>
+          <li><a href="/dashboard">Dashboard</a></li>
+          <li><a href="/login">Login or Sign Up</a></li>
+          <li><a href="#" id="logout">Log Out</a></li>
+        </ul>
       </nav>
     </header>
     <main>
@@ -30,7 +38,7 @@
       Thanks for visiting!
     </footer>
   </div>
-  
+
   {{#if loggedIn}}
   <script src="/javascript/logout.js"></script>
   {{/if}}
