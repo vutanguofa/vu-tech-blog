@@ -29,7 +29,7 @@ sequelize
 
 ## Link to deployed application
 
-[Link to deployed Heroku application]()
+[Link to deployed Heroku application](https://tech-blog-vutang.herokuapp.com)
 
 ## GitHub
 
